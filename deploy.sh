@@ -20,7 +20,7 @@ git commit -m 'deploy'
 
 printf "run 21\n"
 # if you are deploying to https://BarretHexschool.github.io
- git push -u origin main   
+ git push -f origin main   
 # git push -f git@github.com:BarretHexschool/BarretHexschool.github.io.git main
 
 printf "run 26\n"
