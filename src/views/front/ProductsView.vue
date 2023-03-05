@@ -1,6 +1,5 @@
 <template>
     <div>
-        這是產品列表
         <table class="table align-middle">
             <thead>
               <tr>
