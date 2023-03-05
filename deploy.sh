@@ -26,7 +26,7 @@ printf "run 21\n"
 printf "run 26\n"
 # navigate into the build output directory
 cd dist
-
+dir
 printf "run 30\n"
 # if you are deploying to https://BarretHexschool.github.io/vuetraining_w6
 git push -f git@github.com:BarretHexschool/VueTraining_w6.git main:gh-pages
