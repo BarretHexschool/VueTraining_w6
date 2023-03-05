@@ -28,6 +28,11 @@ printf "run 26\n"
 cd dist
 dir
 printf "run 30\n"
+
+git init
+git checkout -B main
+git add -A
+git commit -m 'deploy'
 # if you are deploying to https://BarretHexschool.github.io/vuetraining_w6
 git push -f git@github.com:BarretHexschool/VueTraining_w6.git main:gh-pages
 
