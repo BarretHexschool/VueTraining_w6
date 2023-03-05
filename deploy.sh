@@ -6,8 +6,6 @@ set -e
 # build
 npm run build
 
-# navigate into the build output directory
-cd dist
 
 # place .nojekyll to bypass Jekyll processing
 echo > .nojekyll
@@ -22,7 +20,11 @@ git commit -m 'deploy'
 
 
 # if you are deploying to https://BarretHexschool.github.io
-# git push -f git@github.com:BarretHexschool/BarretHexschool.github.io.git main
+git push -f git@github.com:BarretHexschool/BarretHexschool.github.io.git main
+
+
+# navigate into the build output directory
+cd dist
 
 # if you are deploying to https://BarretHexschool.github.io/vuetraining_w6
 git push -f git@github.com:BarretHexschool/VueTraining_w6.git main:gh-pages

@@ -19,8 +19,6 @@
         <button type="submit" class="btn btn-primary w-100 mb-3">登入</button>
       </form>
     </main>
-    <footer class="bg-light d-flex align-items-center justify-content-center"
-    style="height: 50px;"><p class="mb-0">© 2023 鮮堡漢堡 板橋文化店 版權所有</p></footer>
 
 </template>
 <script>
