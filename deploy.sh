@@ -20,10 +20,11 @@ git checkout -B main
 git add -A
 git commit -m 'deploy'
 
+
 # if you are deploying to https://BarretHexschool.github.io
 # git push -f git@github.com:BarretHexschool/BarretHexschool.github.io.git main
 
 # if you are deploying to https://BarretHexschool.github.io/vuetraining_w6
-git push -f git@github.com:BarretHexschool/vuetraining_w6.git main:gh-pages
+git push -f git@github.com:BarretHexschool/VueTraining_w6.git main:gh-pages
 
 cd -
