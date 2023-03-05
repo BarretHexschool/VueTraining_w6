@@ -38,7 +38,7 @@ export default {
         .then(res => {
           const { token, expired } = res.data
           document.cookie = `hexToken=${token}; expires=${new Date(expired)}`
-          this.alert('恭喜您，登入成功！')
+          this.$router.push('/admin/products')
         //   window.location = 'products.html'
         })
         .catch(err => {
